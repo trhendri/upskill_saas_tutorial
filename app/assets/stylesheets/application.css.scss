@@ -16,13 +16,16 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
-/*Typography Styles*/
+
+//Typography Styles
 h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
 }
 
-/*Background Gradient*/
+//Background Gradient
 .home-callout, .navbar {
   /* Gradient provided by https://twitter.com/_ighosh at UIGradients.com */
   background: #ED4264; /* fallback for old browsers */
@@ -31,7 +34,7 @@ h1, h2, h3 {
         
 }
 
-/*Nav Styles*/
+//Nav Styles
 .navbar {
   border:none;
 }
@@ -39,19 +42,14 @@ h1, h2, h3 {
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a{
   color: white;
-  /* &:hover {
+   &:hover {
     color: white;
     opacity: 0.75;
-  } */
+  } 
 }
 
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-nav > li > a:hover {
-  color: white;
-  opacity: 0.75;
-}
 
-/*Homepage Styles */
+//Homepage Styles
 .home-callout {
   margin-top: -20px;
   padding-top: 50px;
